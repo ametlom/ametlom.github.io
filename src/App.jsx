@@ -18,7 +18,7 @@ const HomePage = () => {
     <div>
       <MetaTags
         title="Прием металлолома"
-        description="A concise description of your homepage content"
+        description="Покупка лома черных металлов. Пункт приема металлолома. Лучшие цены"
       />
       {/* Your homepage content */}
       <h1>общее инфо о бизнесе</h1>
@@ -31,7 +31,7 @@ const PricePage = () => {
     <div>
       <MetaTags
         title="Цены на металлолом"
-        description="A concise description of your pricepage content"
+        description="Оплата металлолома сразу на месте наличными без задержек. Чермет. Цены на металлолом"
       />
       {/* Your pricepage content */}
       <h1>Цены на чёрный лом</h1>
@@ -44,7 +44,7 @@ const MapPage = () => {
     <div>
       <MetaTags
         title="Схема проезда"
-        description="A concise description of your mappage content"
+        description="Купим лом черных металлов. Схема проезда. Нефтекамск, ул.Индустриальная 9Б, строение 7/3. Где мы находимся на карте"
       />
       {/* Your mappage content */}
       <h1>Карта проезда и адрес</h1>
@@ -57,7 +57,7 @@ const DemontazhPage = () => {
     <div>
       <MetaTags
         title="Демонтаж металлолома"
-        description="A concise description of your demontazhpage content"
+        description="Быстро демонтируем ваш металлолом. Вывезем любые металлоконструкции. Нефтяное оборудование. Заводское оборудование"
       />
       {/* Your demontazhpage content */}
       <h1>Демонтаж металлолома</h1>
@@ -70,7 +70,7 @@ const GalleryPage = () => {
     <div>
       <MetaTags
         title="Наши фотографии"
-        description="A concise description of your gallerypage content"
+        description="Амет-ресурс — прием лома черного металла. город Нефтекамск. Мы купим дорого и переработаем ваш металлолом. Возможен демонтаж и вывоз"
       />
       {/* Your gallerypage content */}
       <h1>Фотогалерея</h1>
@@ -83,7 +83,7 @@ const LicensePage = () => {
     <div>
       <MetaTags
         title="Лицензии компании"
-        description="A concise description of your licensepage content"
+        description="Амет-ресурс — официально зарегистрированное на территории России предприятие, которое осуществляет деятельность по сбору, переработке и реализации лома"
       />
       {/* Your licensepage content */}
       <h1>Лицензии</h1>
@@ -96,7 +96,7 @@ const BranchPage = () => {
     <div>
       <MetaTags
         title="Филиалы компании"
-        description="A concise description of your branchpage content"
+        description="Филиалы в городах: Нефтекамск, Уфа, Стерлитамак. Адреса филиалов"
       />
       {/* Your branchpage content */}
       <h1>Наши филиалы</h1>
