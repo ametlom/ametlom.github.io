@@ -8,38 +8,57 @@ import { GalleryPage } from "@pages/Gallerypage";
 import { LicensePage } from "@pages/Licensepage";
 import { BranchPage } from "@pages/Branchpage";
 import { NoPage } from "@pages/Nopage";
-import "./App.css";
+import house from "./house.svg";
 
 const Layout = () => {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Главная</Link>
-          </li>
-          <li>
-            <Link to="/price">Цены</Link>
-          </li>
-          <li>
-            <Link to="/map">Схема проезда</Link>
-          </li>
-          <li>
-            <Link to="/demontazh">Демонтаж</Link>
-          </li>
-          <li>
-            <Link to="/photos">Фотогалерея</Link>
-          </li>
-          <li>
-            <Link to="/license">Лицензии</Link>
-          </li>
-          <li>
-            <Link to="/filialy">Наши филиалы</Link>
-          </li>
-        </ul>
-      </nav>
+      <div className="App">
+        <header className="App-header">
+          <img src={house} className="App-logo" alt="logo" />
+          <nav>
+            <ul>
+              <li>
+                <Link className="link" to="/">
+                  Главная
+                </Link>
+              </li>
+              <li>
+                <Link className="link" to="/price">
+                  Цены
+                </Link>
+              </li>
+              <li>
+                <Link className="link" to="/map">
+                  Схема проезда
+                </Link>
+              </li>
+              <li>
+                <Link className="link" to="/demontazh">
+                  Демонтаж
+                </Link>
+              </li>
+              <li>
+                <Link className="link" to="/photos">
+                  Фотогалерея
+                </Link>
+              </li>
+              <li>
+                <Link className="link" to="/license">
+                  Лицензии
+                </Link>
+              </li>
+              <li>
+                <Link className="link" to="/filialy">
+                  Наши филиалы
+                </Link>
+              </li>
+            </ul>
+          </nav>
 
-      <Outlet />
+          <Outlet />
+        </header>
+      </div>
     </>
   );
 };
